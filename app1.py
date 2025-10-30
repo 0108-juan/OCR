@@ -92,7 +92,7 @@ with st.sidebar:
 st.markdown('<div class="camera-container">', unsafe_allow_html=True)
 st.markdown("### 📸 Captura de Imagen")
 st.markdown("Toma una foto del texto que quieres reconocer")
-img_file_buffer = st.camera_input("Haz clic en el botón "Take Photo" para capturar imagen")
+img_file_buffer = st.camera_input("Haz clic en el botón Take Photo para capturar imagen")
 st.markdown('</div>', unsafe_allow_html=True)
 
 # Procesamiento de imagen
